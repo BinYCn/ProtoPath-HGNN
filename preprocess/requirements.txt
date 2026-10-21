@@ -1,0 +1,26 @@
+# Preprocessing: Linux x86-64, Python 3.10, PyTorch 2.2.2 and CUDA 11.8.
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+torch==2.2.2+cu118
+torchvision==0.17.2+cu118
+torch-geometric==2.6.1
+torch-scatter @ https://data.pyg.org/whl/torch-2.2.0%2Bcu118/torch_scatter-2.1.2%2Bpt22cu118-cp310-cp310-linux_x86_64.whl
+torch-sparse @ https://data.pyg.org/whl/torch-2.2.0%2Bcu118/torch_sparse-0.6.18%2Bpt22cu118-cp310-cp310-linux_x86_64.whl
+
+numpy==1.26.4
+scikit-learn==1.5.2
+h5py
+joblib
+tqdm
+nmslib==2.1.2
+openslide-bin
+openslide-python
+# Both packages provide cv2; use the same version for each.
+opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
+numcodecs<0.16
+
+tiatoolbox==1.6.0
+timm==1.0.12
+# TRIDENT 0.3.2 supports timm 1.x.
+trident @ git+https://github.com/mahmoodlab/TRIDENT.git@bdeeb74b7eaad8d48bda232bde7de66cae980918
