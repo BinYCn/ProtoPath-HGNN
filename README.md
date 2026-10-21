@@ -13,8 +13,7 @@ prediction and classification.
 
 ## Environment
 
-Use separate Python environments for training and preprocessing. Both
-requirements files target Linux x86-64, Python 3.10 and CUDA 11.8. To create
+Use separate Python environments for training and preprocessing. To create
 the training environment from the repository root:
 
 ```bash
